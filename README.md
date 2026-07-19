@@ -1,27 +1,36 @@
-# bot_rpp
+# 🤖 Bot RPP - Bot de Automatización
 
-Este repositorio contiene el código del proyecto **bot_rpp**, clasificado como **Aplicación / Script de Python**.
+Un bot local desarrollado en Python y optimizado con variables de entorno para procesos automatizados. Cuenta con su propia estructura de entorno virtual (`.venv`) para un aislamiento seguro.
 
-## Tecnologías Utilizadas
+---
 
-- Python
+## 🚀 Características Principales
 
-### Instalación y Ejecución
+* Script principal `bot.py` diseñado para conectarse a plataformas externas de mensajería o automatización.
+* Uso seguro de claves mediante variables de entorno configuradas en un archivo `.env`.
+* Entorno virtual autónomo preconfigurado para dependencias limpias.
 
-1. (Opcional) Crea y activa un entorno virtual:
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* Python 3
+* Dotenv (.env)
+* Virtual Environment (.venv)
+
+---
+
+### Ejecución
+
+1. Crea y configura tu archivo `.env` en la raíz basándote en tus credenciales del bot.
+2. Activa el entorno virtual:
    ```bash
-   python -m venv venv
-   # En Windows
-   .\venv\Scripts\activate
+   .\.venv\Scripts\activate
    ```
-2. Instala los requerimientos (si aplica):
+3. Instala las dependencias y corre el bot:
    ```bash
-   pip install -r requirements.txt
-   ```
-3. Ejecuta el script principal (ej. `main.py` o similar):
-   ```bash
-   python main.py
+   python bot.py
    ```
 
 ---
-*Generado automáticamente para la organización y catalogación de proyectos.*
+*Este repositorio ha sido configurado y catalogado automáticamente.*
